@@ -12,6 +12,9 @@ Run `composer install`
 - `/circle/{radius}`
 - `/triangle/{a}/{b}/{c}` where `a,b & c` are sides of a triangle
 
+### Start the Server
+Run `sumfony server:start` and visit `http://127.0.0.1:8000/circle/2` and `http://127.0.0.1:8000/triangle/2.6/3/5.2` to view sample data
+
 ### Testing
 `php bin/phpunit`
 

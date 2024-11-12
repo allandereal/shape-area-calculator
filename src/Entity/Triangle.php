@@ -21,9 +21,4 @@ class Triangle extends Shape
             2
         );
     }
-
-    public function jsonSerialize(): mixed
-    {
-        return ['r' => (float) number_format($this->c, 1)];
-    }
 }
