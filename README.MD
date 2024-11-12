@@ -5,7 +5,7 @@
 
 ### Installation
 Run `git clone https://github.com/allandereal/shape-area-calculator.git`  
-
+Run ` cd shape-area-calculator && cp .env.example .env`
 Run `composer install`
 
 ### Endpoints
